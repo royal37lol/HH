@@ -1,0 +1,20 @@
+30: 2024-04-16 22:28:57,271 test_get_users:
+25: 2024-04-16 22:28:57,284 GET /users
+30: 2024-04-16 22:28:57,862 test_get_users_not_exist_id:
+25: 2024-04-16 22:28:57,862 GET /users
+30: 2024-04-16 22:28:58,055 test_get_users_invalid_id:
+25: 2024-04-16 22:28:58,055 GET /users
+30: 2024-04-16 22:28:58,252 test_get_user:
+25: 2024-04-16 22:28:58,252 GET /users/2
+30: 2024-04-16 22:28:58,441 test_get_users_page:
+25: 2024-04-16 22:28:58,441 GET /users/?page=2
+30: 2024-04-16 22:28:58,642 test_post_user_empty_body:
+25: 2024-04-16 22:28:58,642 POST /users
+30: 2024-04-16 22:28:59,104 test_post_user_with_full_body:
+25: 2024-04-16 22:28:59,104 POST /users
+30: 2024-04-16 22:28:59,573 test_put_user_with_full_body:
+25: 2024-04-16 22:28:59,573 POST /users
+25: 2024-04-16 22:29:00,032 PUT /users/338
+30: 2024-04-16 22:29:00,498 test_delete_exist_user:
+25: 2024-04-16 22:29:00,498 POST /users
+25: 2024-04-16 22:29:00,969 DELETE /users/551
